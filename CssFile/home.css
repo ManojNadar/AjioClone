@@ -10,6 +10,7 @@
   width: 100%;
   /* border: 3px solid black; */
   height: 100vh;
+  /* position: relative; */
 }
 
 nav {
@@ -548,6 +549,27 @@ strong {
 
 #bit25 {
   /* border: 1px solid red; */
+}
+
+/* Login-page */
+
+#login-container {
+  width: 100%;
+  height: 750px;
+  margin: auto;
+  top: -5%;
+  /* border: 1px solid red; */
+  background-color: black;
+  opacity: 0.9;
+  position: absolute;
+  display: none;
+}
+
+#login-page {
+  width: 25%;
+  margin: auto;
+  height: 100%;
+  background-color: white;
 }
 
 /* media Queries */
